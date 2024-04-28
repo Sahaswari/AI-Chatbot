@@ -1,0 +1,29 @@
+{"intents" : [
+  {"tag": "greetings",
+  "patterns": ["hello", "hey", "hi", "good day", "Greetings", "What's up?", "how is it going?"],
+  "response": ["Hello!", "Hey!", "What can I do gor you?" ],
+     "context_set": ""
+  },
+
+  {"tags": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "response": ["Sad to see you later", "Talk to you later","GoodBye!"],
+     "context_set": ""
+  },
+
+  {"tag": "programming",
+    "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+    "responses": ["Programming, coding or software development, means writing computer code to automate tasks."],
+    "context_set": ""
+  },
+  {"tag": "resource",
+    "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+    "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1)."],
+    "context_set": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+    "responses": ["Here are your stocks!"],
+    "context_set": ""
+  }
+]}
